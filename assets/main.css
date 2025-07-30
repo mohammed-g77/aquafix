@@ -15,17 +15,7 @@ a.nav-link {
     font-weight: 500;
     
 }
-
-.bg_card{
-    color: #F5F5F5;
-}
  
-.video_btn:hover{
-     
-   color:#FA5228 !important;
-   background-color: #fff !important;
-    opacity: 0.9;
-}
 
 .navbar .nav-link,
 .navbar .dropdown-item {
@@ -40,6 +30,18 @@ a.nav-link {
     color:#fff;
     background-color:#2E84FE;
 }
+
+.navbar-nav .nav-link.active {
+    color: #2E84FE !important;
+}
+.video_btn:hover{
+    
+  color:#FA5228 !important;
+  background-color: #fff !important;
+   opacity: 0.9;
+}
+
+
 .Btn_R_L:hover{
     background-color: #FA5228 !important;
     border-color: #fff;
@@ -49,9 +51,6 @@ a.nav-link {
     color: #fff;
 }
 
-.navbar-nav .nav-link.active {
-    color: #2E84FE !important;
-}
 
 .color-h6 {
     color: #FA5228;
@@ -64,6 +63,9 @@ a.nav-link {
     display: inline-block;
 }
 
+.WorkerImg{
+    border-radius: 20px 20px 20px 100px;
+}
 .experience-overlay {
     position: absolute;
     bottom: 20px;
@@ -81,7 +83,6 @@ a.nav-link {
 .btn.btn-outline-muted {
     color: #838383;
     border-color: #838383;
-
     border-radius: 10px 10px 10px 10px;
     padding: 0.5rem 1.25rem;
     font-weight: 500;
@@ -109,9 +110,6 @@ a.nav-link {
     z-index: 1;
 }
 
-.WorkerImg{
-    border-radius: 20px 20px 20px 100px;
-}
 .service-icon-circle i {
     font-size: 2rem;
     color: #fff;
