@@ -22,6 +22,14 @@ a.nav-link {
     color: #080808  ;
     
 }
+.navbar.navbar-scrolled{
+    background-color: #1b6fe0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: background-color .2s ease, box-shadow .2s ease;
+}
+.navbar.navbar-scrolled .nav-link{
+    color:#080808 !important;
+}
 .navbar .nav-link:hover{
     color: #2E84FE !important;
     transition: all 0.3s ease-in-out;
